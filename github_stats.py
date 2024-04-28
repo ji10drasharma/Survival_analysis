@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import os
 
 # Constants
-GITHUB_TOKEN = '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'  # Replace with your GitHub personal access token
+GITHUB_TOKEN = 'PERSONAL_TOKEN'  # Replace with your GitHub personal access token
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}'}
 LANGUAGES = ['Java', 'Python', 'C++']
 REPOS_PER_LANGUAGE = 1000  # Fetch more repos to select randomly
